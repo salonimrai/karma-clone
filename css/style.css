@@ -1,0 +1,44 @@
+body {
+    background-color: LightGray;
+	font-family: helvetica;
+}
+div, section {
+    border: 1px solid Chocolate;
+}
+
+.navbar{
+	margin: 0 10%;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+	color: grey;
+	font-size: 1.2em;
+}
+
+.navbar img{
+	max-width: 2em;
+}
+
+.linksnav {
+	float:right;
+}
+
+.linksnav li {
+	display: inline-block;
+	padding-left: 1.5em;
+}
+
+.linksnav a {
+	color: grey;
+	text-decoration: none;
+}
+
+.linksnav a:hover{
+	color: #474747;
+	background-color: lightblue;
+	cursor: help; 
+}
+
+#currentPage {
+	color: #474747;
+}
