@@ -3,7 +3,7 @@ body {
 	font-family: helvetica;
 }
 div, section {
-    border: 1px solid Chocolate;
+    --border: 1px solid Chocolate;
 }
 
 .center{
@@ -54,6 +54,7 @@ div, section {
 .middle{
 	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
+	background-position: center bottom;
 	text-align: center;
 	color: white;
 	height: 735px;
@@ -80,6 +81,7 @@ div, section {
 
 .content{
 	text-align: center;
+	padding-bottom: 4em;
 }
 
 .iconcontainer{
@@ -91,4 +93,33 @@ div, section {
 	--width: 300px;
 	display: inline-block;
 	padding: 10px 40px;
+}
+
+.social {
+	padding-bottom: 5em;
+	overflow: auto;
+	text-align: center;
+}
+
+.social hr{
+	width: 60%;
+	margin-bottom: 2em;
+}
+
+.social li{
+	display: inline-block;
+	padding: 15px;
+}
+
+#twitter {
+	color: #4099FF;
+}
+
+#facebook{
+	color: #3b5998;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: #3b5998;
+	border-style: solid;
+	padding: 10px 15px;
 }
